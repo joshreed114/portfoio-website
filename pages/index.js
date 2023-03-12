@@ -37,7 +37,7 @@ export default function Home() {
 
           {/*========== Placeholder Picture ==========*/}
           <div className='relative bg-gradient-to-b from-blue-800 to-white- rounded-full w-80 h-80 mt-10 mx-auto overflow-hidden md:h-96 md:w-96'>
-            <Image src={deved} layout='fill' objectFit='cover'/>
+            <Image src={deved} alt='Placeholder Picture' layout='fill' objectFit='cover'/>
           </div>
 
           {/*========== Home ==========*/}
@@ -128,7 +128,7 @@ export default function Home() {
                 Worked in a team to create a web scraper application that searched for deals. 
                 Program accepted user inputted keywords to search for new deals on a deal finding website. 
                 Displayed new deals to the user by scraping and parsing HTML data retrieved from the search 
-                query's URL.
+                querys URL.
               </p>
             </div>
             {/*========== Project 3 ==========*/}
@@ -148,7 +148,7 @@ export default function Home() {
                 Translate App</h3>
               <p className='text-lg text-gray-800 leading-2'>
                 Created an Android application that utilized a REST API to retrieve and display data. 
-                Our app uses the Google Translate API to send a phrase and the user's chosen output language. 
+                Our app uses the Google Translate API to send a phrase and the users chosen output language. 
                 The app returns and displays the translated phrase.
               </p>
             </div>
