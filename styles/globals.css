@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
     @apply bg-white text-[#1f2937] tracking-wide
   }
