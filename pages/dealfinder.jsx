@@ -14,7 +14,7 @@ const databaseProject = () => {
                     <p className="text-xl max-w-[1080px] justify-center text-center text-gray-800 px-4 py-2">
                         Worked in a team to create a web scraper application that searched for deals. Program accepted user inputted 
                         keywords to search for new deals on a deal finding website. Displayed new deals to the user by scraping and 
-                        parsing HTML data retrieved from the search query's URL.</p>
+                        parsing HTML data retrieved from the search query&#39;s URL.</p>
                     <ul className="flex items-center mt-4 mb-8">
                         <li className="text-md cursor-pointer text-gray-800">
                             <Link href='https://github.com/josh-reed-QU/SER305-Final-Project' target='_blank' 

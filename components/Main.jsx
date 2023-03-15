@@ -15,7 +15,7 @@ const Main = () => {
                 <div>
                     <div className='text-center p-10'>
                         <h1 className='py-3 text-gray-700'>
-                            Hi, I'm <span className='text-blue-600'>Joshua Reed</span>
+                            Hi, I&#39;m <span className='text-blue-600'>Joshua Reed</span>
                         </h1>
                         <h3 className='text-2xl py-1 md:text-3xl'>
                             I am a Junior Computer Science major at Quinnipiac University

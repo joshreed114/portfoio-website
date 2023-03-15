@@ -11,7 +11,7 @@ const databaseProject = () => {
                     <h2 className="pt-28 pb-6 mx-4 max-w-[1080px] text-blue-600">Android Translate App</h2>
                     <p className="text-xl max-w-[1080px] justify-center text-center text-gray-800 px-4 py-2">
                         Created an Android application that utilized a REST API to retrieve and display data. Our app 
-                        uses the Google Translate API to send a phrase and the user's chosen output language. The app 
+                        uses the Google Translate API to send a phrase and the user&#39;s chosen output language. The app 
                         returns and displays the translated phrase.</p>
                     <p className="text-lg max-w-[840px] justify-center text-center text-blue-600 px-4 py-3">
                         Note: REST api no longer exists, which results in the error returned in the demo gif.</p>
